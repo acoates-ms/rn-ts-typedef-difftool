@@ -1,0 +1,15 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "go": "tsc --skipLibCheck && node generateTsInfo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-native": "*",
+    "@types/node": "*",
+    "typescript": "^3.6.2"
+  }
+}
